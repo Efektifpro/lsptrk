@@ -1,0 +1,108 @@
+/* Upload File start */
+
+    .file-upload {
+        background-color: #ffffff;
+        margin: 0 auto;
+    }
+
+    .file-upload-content {
+        display: none;
+        text-align: center;
+    }
+
+    .file-upload-input {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .image-upload-wrap {
+        border: 1px solid #e4e6fc;
+        border-radius: 5px;
+        position: relative;
+        padding: 0px 20px;
+        background-color: #fdfdff;
+    }
+
+    .image-dropping,
+    .image-upload-wrap:hover {
+        background-color: var(--primary);
+        color: white;
+    }
+
+    .image-title-wrap {
+        color: #222;
+    }
+
+    .drag-text {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .drag-text i {
+        font-size: 25px;
+    }
+
+    .drag-text h3 {
+        font-weight: 100;
+        margin-bottom: 0px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .file-upload-image {
+        max-height: 200px;
+        width: 400px;
+        margin: 10px auto;
+        object-fit: cover;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .file-upload-image {
+        width: 100%;
+        }
+    }
+
+    .remove-image {
+        width: 200px;
+        margin: 20px 0px 0px 0px;
+        color: #fff;
+        background: #cd4535;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        border-bottom: 4px solid #b02818;
+        transition: all .2s ease;
+        outline: none;
+        font-weight: 700;
+    }
+
+    .remove-image:hover {
+        background: #c13b2a;
+        color: #ffffff;
+        transition: all .2s ease;
+        cursor: pointer;
+    }
+
+    .remove-image:active {
+        border: 0;
+        transition: all .2s ease;
+    }
+
+/* Upload File end */
+
+/* .navbar {
+    background-color: red;
+    padding: 0px 50px;
+} */
+
+/* Multi form start */
+
+
+
+/* Multi form end */
